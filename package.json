@@ -15,8 +15,8 @@
   "scripts": {
     "predeploy":"npm run build",
     "deploy":"gh-pages -d build",
-    "start": "node server.js",
-    "server": "nodemon server.js"
+    "start": "node index.js",
+    "server": "nodemon index.js"
   },
   "author": "mani kumar",
   "license": "ISC",
