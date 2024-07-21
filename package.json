@@ -7,11 +7,14 @@
     "mongoose": "^8.0.3",
     "nodemon": "^3.1.0"
   },
+  "homepage":"https://manikumar324.github.io/Project_Backend",
   "name": "express",
   "version": "1.0.0",
   "description": "testing application",
   "main": "server.js",
   "scripts": {
+    "predeploy":"npm run build",
+    "deploy":"gh-pages -d build",
     "start": "node server.js",
     "server": "nodemon server.js"
   },
